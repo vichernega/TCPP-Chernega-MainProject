@@ -30,6 +30,6 @@ class RecyclerViewAdapter(private val dataArray: Array<String>):
 
     override fun getItemCount() = dataArray.size
 
-    // Changes 2 in branch ALFA in IDE
-    fun BranchALFA_inIDE(): Boolean { return false }
+    // Changes 2 in branch ALFA in Browser
+    fun BranchALFA_inBrowser(): Boolean { return false }
 }
