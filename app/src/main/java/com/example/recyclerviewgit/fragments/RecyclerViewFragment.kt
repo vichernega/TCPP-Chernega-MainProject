@@ -14,10 +14,12 @@ class RecyclerViewFragment : Fragment(R.layout.fragment_recycler_view) {
 
     override fun onStart() {
         super.onStart()
-        initRecycler()
+        initRecyclerALFABranch()
     }
 
-    fun initRecycler(){
+    //changes in branch ALFA
+
+    fun initRecyclerALFABranch(){
         mRecyclerView = RecyclerViewAdapter(namesArray)
         recycler_view.adapter = mRecyclerView
     }
