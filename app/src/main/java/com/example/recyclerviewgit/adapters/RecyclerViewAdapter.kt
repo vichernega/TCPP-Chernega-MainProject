@@ -7,6 +7,7 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recyclerviewgit.R
 
+//comment
 /** ADAPTER gets the data, adapts it to recyclerView and shows to user*/
 class RecyclerViewAdapter(private val dataArray: Array<String>):
     RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
